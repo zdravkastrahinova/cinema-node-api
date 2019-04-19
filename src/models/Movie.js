@@ -12,7 +12,7 @@ const MovieSchema = new Schema({
         required: false
     },
     releaseDate: {
-        type: Date,
+        type: String,
         required: true
     },
     imagePath: {
